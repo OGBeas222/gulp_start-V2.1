@@ -3,7 +3,7 @@
     <div class="container">
         <div class="header__top-inner">
           <ul class="header__requisites-wrapper">
-              <li class="header__requisites-item svg-Vector-dims">
+              <li class="header__requisites-item header__requisites-item--adress">
                   <p class="header__requisites-text">Адрес и время доставки</p>
               </li>
               <li class="header__requisites-item header__requisites-item--hotline">
@@ -37,11 +37,11 @@
     </div>
     <!-- /.container -->
   </div>
-  <div class="header__content">
+  <div class="header__bottom">
      <div class="container">
-      <div class="header__content-wrapper">
+      <div class="header__bottom-wrapper">
           <a href="#" class="logo">
-              <img class="logo__img" src="@img/burger.png" alt="Перейти на Сайт на ФрешОк" >
+              <img class="logo__img" width="184" height="60" src="@img/logo.png" alt="Перейти на Сайт на ФрешОк" >
           </a>
           <div class="header-catalog">
               <div class="header-catalog__wrapper">
@@ -52,9 +52,14 @@
                   <img class="header-catalog__down" src="@img/drop-down.png" alt="Развернуть меню, каталог" >
               </div>
           </div>
+          <!-- /.header-catalog -->
           <div class="header-search">
-
+            <form class="header-search__form" action="#">
+                <input class="header-search__form-input"name="search"  type="text"  placeholder="Найти в магазине ..."  >
+                <button class="header-search__form-btn" type="submit">поиск</button>
+            </form>
           </div>
+          <!--/.header-search -->
           <ul class="user-menu">
               <li class="user-menu__elem">
                   <a href="#" class="user-menu__links">
@@ -78,7 +83,11 @@
                   </a>
               </li>
           </ul>
+          <!-- /.user-menu -->
       </div>
+      <!-- /.header__bottom-wrapper -->
      </div>
+     <!-- /.container -->
   </div>
+  <!-- /.header__bottom -->
 </header>
